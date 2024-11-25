@@ -1,0 +1,72 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:970547367045:function:9b3a8ec4-2b90-443f-8139-00051e06c7f1:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:970547367045:function:9b3a8ec4-2b90-443f-8139-00051e06c7f1:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:970547367045:function:9b3a8ec4-2b90-443f-8139-00051e06c7f1:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:970547367045:function:9b3a8ec4-2b90-443f-8139-00051e06c7f1:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "automaticClonedLocale": {
+        "locales": [
+          {
+            "source": "es-US"
+          }
+        ]
+      },
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "es-US": {
+          "description": "Skill de Alexa que utiliza la API de OpenAI para generar respuestas desde el modelo ChatGPT",
+          "examplePhrases": [
+            "Alexa chat"
+          ],
+          "keywords": [],
+          "name": "Jarvis",
+          "summary": "ChatGPT en Alexa"
+        },
+        "es-ES": {
+          "description": "Skill de Alexa que utiliza la API de OpenAI para generar respuestas desde el modelo ChatGPT",
+          "examplePhrases": [
+            "Alexa chat"
+          ],
+          "keywords": [],
+          "name": "Jarvis",
+          "summary": "ChatGPT en Alexa"
+        },
+        "es-MX": {
+          "description": "Skill de Alexa que utiliza la API de OpenAI para generar respuestas desde el modelo ChatGPT",
+          "examplePhrases": [
+            "Alexa chat"
+          ],
+          "keywords": [],
+          "name": "Jarvis",
+          "summary": "ChatGPT en Alexa"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions"
+    }
+  }
+}
